@@ -1,2 +1,2 @@
-# Hundred-Days-Frontend-Coding-Challenge
-This is a hundred days frontend coding challenge consisting of small to medium sized projects built using HTML,CSS and Vanilla JavaScript.
+# Hundred Days Frontend Coding Challenge
+This is a hundred days frontend coding challenge/practice consisting of small to medium sized projects built using HTML,CSS and Vanilla JavaScript and certain other tools where ever need be.
