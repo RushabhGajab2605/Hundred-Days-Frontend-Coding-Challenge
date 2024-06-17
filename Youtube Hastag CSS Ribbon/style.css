@@ -1,0 +1,34 @@
+body{
+    font-family: sans-serif;
+}
+
+.ribbon-background{
+    background-color: #065FD6;
+    max-width: 100%;
+    min-height: 114px;
+    padding: 2rem;
+    color: white;
+    background-image: url(./Assets/background.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 2px ;
+}
+
+.person-img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: solid 2px white;
+    vertical-align: middle;
+    margin-right: -1.5rem;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+span{
+    margin-bottom: 0;
+}
+
