@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+
+body
+{
+    margin: 0;
+}
+main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card-group 
+{
+    display: flex;
+    align-items: center;
+    margin: 2em;
+    min-height: fit-content;
+}
+
+.card-group h1
+{
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", sans-serif;
+    font-style: normal;
+}
+
+.card-group p
+{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-style: normal;
+}
+
+.card-group a
+{
+    margin-right: auto;
+}
+
+.card-group img {
+    width: 64px;
+    height: 40px;
+}
+
+.card-group .orange-card a
+{
+    display: inline-block;
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    font-style: normal;
+    border: 2px solid hsl(0, 0%, 95%) ;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    margin-top: 4rem;
+}
+
+.card-group .orange-card a:hover
+{
+    color:hsl(0, 0%, 95%);
+    background-color:hsl(31, 77%, 52%);
+}
+
+.card-group .light-green-card a
+{
+    display: inline-block;
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    font-style: normal;
+    border: 2px solid hsl(0, 0%, 95%) ;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    margin-top: 4rem;
+}
+
+.card-group .light-green-card a:hover
+{
+    color:hsl(0, 0%, 95%);
+    background-color:hsl(184, 100%, 22%);
+}
+
+.card-group .dark-green-card a
+{
+    display: inline-block;
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    font-style: normal;
+    border: 2px solid hsl(0, 0%, 95%) ;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    margin-top: 4rem;
+}
+
+.card-group .dark-green-card a:hover
+{
+    color:hsl(0, 0%, 95%);
+    background-color:hsl(179, 100%, 13%);
+}
+
+.orange-card
+{
+    background-color: hsl(31, 77%, 52%);
+    padding: 4rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.light-green-card
+{
+    background-color: hsl(184, 100%, 22%);
+    padding: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.dark-green-card{
+    background-color: hsl(179, 100%, 13%);
+    padding: 4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+@media (max-width: 750px) {
+    .card-group 
+    {
+        flex-direction: column;
+        max-width: 400px;
+    }
+
+    .orange-card
+    {
+        background-color: hsl(31, 77%, 52%);
+        padding: 4rem;
+        border-radius: 1rem 1rem 0rem 0rem;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .light-green-card
+    {
+        background-color: hsl(184, 100%, 22%);
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .dark-green-card
+    {
+        background-color: hsl(179, 100%, 13%);
+        padding: 4rem;
+        border-radius: 0rem 0rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+}
+
+
+
